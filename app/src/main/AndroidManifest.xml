@@ -5,12 +5,14 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MiAplicacion"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ToolbarActivity">
-        <activity android:name=".TabLayoutActivity2"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".BienvenidoActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TabLayoutActivity2" />
+        <activity android:name=".PasoEntreFragmentsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
